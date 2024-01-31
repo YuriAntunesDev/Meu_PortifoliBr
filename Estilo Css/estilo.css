@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+
+}
+
+header{
+    padding: 30px 0;
+  
+}
+
+.menu{
+    padding: 15px;
+    padding-left: 350px;
+   
+    
+}
+
+.menu a{
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.sobre{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.apresentacao .hello{
+    font-size: 20px;
+    margin-top: 50px ;
+    margin-bottom: 5px;
+    color: black;
+    
+
+}    
+
+.logo1{
+    margin-left:120px;
+    
+}
+
+.apresentacao .welcome{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.apresentacao .eu{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: rgba(68, 67, 67, 0.885);
+}
+
+.apresentacao button{
+
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+
+
+
